@@ -2,6 +2,11 @@
 
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
+use YooKassa\Client;
+use YooKassa\Model\CurrencyCode;
+use YooKassa\Model\Payment\ConfirmationType;
+use YooKassa\Request\Payments\CreatePaymentRequest;
+use Ramsey\Uuid\Uuid;
 
 /*
 |--------------------------------------------------------------------------
